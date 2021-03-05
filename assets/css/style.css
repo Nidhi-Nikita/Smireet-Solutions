@@ -413,11 +413,12 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 #hero h2 {
   color: #fff;
   margin-bottom: 30px;
-  font-size: 48px;
+  font-size: 58px;
   font-weight: 900;
 }
 
 #hero p {
+  font-size: 22px;
   width: 80%;
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
@@ -947,7 +948,7 @@ section {
 }
 
 .portfolio .portfolio-wrap {
-  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.30);
   transition: 0.3s;
   position: relative;
   overflow: hidden;
@@ -1464,6 +1465,7 @@ section {
 }
 
 #footer .copyright {
+  color: #ffffff;
   text-align: center;
   padding-top: 30px;
 }
@@ -1477,4 +1479,10 @@ section {
 
 #footer .credits a {
   color: #9eccf4;
+}
+
+/*details*/
+.details{
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  padding: 20px;
 }

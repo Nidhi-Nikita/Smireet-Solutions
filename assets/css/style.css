@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 /*--------------------------------------------------------------
 # Top Bar
 --------------------------------------------------------------*/
-#topbar {
+/*#topbar {
   background: #fff;
   border-bottom: 1px solid #eee;
   font-size: 15px;
@@ -110,7 +110,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 #topbar .social-links a:hover {
   color: #428bca;
-}
+}*/
 
 /*--------------------------------------------------------------
 # Header
@@ -413,11 +413,12 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 #hero h2 {
   color: #fff;
   margin-bottom: 30px;
-  font-size: 48px;
+  font-size: 58px;
   font-weight: 900;
 }
 
 #hero p {
+  font-size: 22px;
   width: 80%;
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
@@ -429,7 +430,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   background-position: center top;
 }
 
-#hero .carousel-inner .carousel-item,
+/*#hero .carousel-inner .carousel-item,
 #hero .carousel-inner .active.carousel-item-start,
 #hero .carousel-inner .active.carousel-item-end {
   opacity: 0;
@@ -487,7 +488,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 #hero .btn-get-started:hover {
   background: #1c5c93;
 }
-
+*/
 @media (max-width: 768px) {
   #hero h2 {
     font-size: 28px;
@@ -504,9 +505,9 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   #hero p {
     width: 60%;
   }
-  #hero .carousel-control-prev, #hero .carousel-control-next {
+  /*#hero .carousel-control-prev, #hero .carousel-control-next {
     width: 5%;
-  }
+  }*/
 }
 
 /*--------------------------------------------------------------
@@ -661,7 +662,7 @@ section {
   font-size: 14px;
 }
 
-.about .video-box {
+/*.about .video-box {
   position: relative;
 }
 
@@ -758,7 +759,7 @@ section {
     transform: scale(1, 1);
     opacity: 0;
   }
-}
+}*/
 
 /*--------------------------------------------------------------
 # About Lists
@@ -808,7 +809,7 @@ section {
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
-.counts {
+/*.counts {
   padding-bottom: 30px;
 }
 
@@ -837,12 +838,12 @@ section {
   margin: 0;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
-}
+}*/
 
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.services {
+/*.services {
   padding-bottom: 30px;
 }
 
@@ -906,7 +907,7 @@ section {
 .services .description {
   line-height: 24px;
   font-size: 14px;
-}
+}*/
 
 /*--------------------------------------------------------------
 # Our Portfolio
@@ -915,7 +916,7 @@ section {
   margin-bottom: 30px;
 }
 
-.portfolio #portfolio-flters {
+/*.portfolio #portfolio-flters {
   padding: 0;
   margin: 0 0 35px 0;
   list-style: none;
@@ -944,10 +945,10 @@ section {
 
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
-}
+}*/
 
 .portfolio .portfolio-wrap {
-  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.30);
   transition: 0.3s;
   position: relative;
   overflow: hidden;
@@ -1092,7 +1093,7 @@ section {
 /*--------------------------------------------------------------
 # Our Team
 --------------------------------------------------------------*/
-.team {
+/*.team {
   background: #fff;
   padding: 60px 0 30px 0;
 }
@@ -1175,7 +1176,7 @@ section {
   .team .member {
     margin-bottom: 100px;
   }
-}
+}*/
 
 /*--------------------------------------------------------------
 # Frequently Asked Questions
@@ -1464,6 +1465,7 @@ section {
 }
 
 #footer .copyright {
+  color: #ffffff;
   text-align: center;
   padding-top: 30px;
 }
@@ -1477,4 +1479,31 @@ section {
 
 #footer .credits a {
   color: #9eccf4;
+}
+
+/*details*/
+.details{
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  padding: 20px;
+}
+
+/*map*/
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:300px;    
+    width:600px;
+    position:absolute;
+}
+
+/*corousel*/
+.carousel-indicators [data-bs-target] {
+  background-color: transparent;
 }

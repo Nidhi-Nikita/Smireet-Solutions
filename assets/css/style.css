@@ -367,8 +367,17 @@ mobile view logo
   display: block;
 }
 
+.auto-margin{
+  margin-left: 3rem; 
+}
+
 @media screen and (max-width: 768px){
-  
+  .auto-margin{
+    margin-left: -6rem;
+  }
+  .navbar{
+    margin-left: 15rem;
+  }
 }
 
 /*--------------------------------------------------------------

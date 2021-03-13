@@ -13,7 +13,7 @@ http.createServer(function(req, res){
 	var final = readFiles();	 
 	
 	// this is to display on html site
-	res.write(final);
+	// res.write(final);
 
 	// this is to display on cmd
 	console.log(final);
@@ -22,7 +22,7 @@ http.createServer(function(req, res){
 	// Since js is asynchronous res.final is getting executed even before res.write is executed
 	// hence first we'll check if data is there in final var then only res.end will be executed
 	if (final) {
-		res.end("hiiiee: ",final);
+		res.end("hiiiee: ",data);
 	}
 
 }).listen(8080);

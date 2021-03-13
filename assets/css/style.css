@@ -140,11 +140,25 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 #header .logo img {
   padding: 0;
   margin: 0;
+  margin-left: 100%;
   max-height: 70px;
 }
 
 .scrolled-offset {
   margin-top: 70px;
+}
+
+/*
+mobile view logo
+*/
+
+@media screen and(max-width: 768px){
+  #header .logo img {
+    padding: 0;
+    margin: 0;
+    margin-left: -10rem;
+    max-height: 70px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -155,6 +169,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 */
 .navbar {
   padding: 0;
+  margin-left: 50%;
 }
 
 .navbar ul {
@@ -350,6 +365,10 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
+}
+
+@media screen and (max-width: 768px){
+  
 }
 
 /*--------------------------------------------------------------

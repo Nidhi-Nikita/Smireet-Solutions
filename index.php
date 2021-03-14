@@ -355,7 +355,7 @@
                         closedir($handle);
                     }
 
-                    for ($x = 0; $x <= count($newArray); $x++) {
+                    for ($x = 0; $x < count($newArray); $x++) {
 
                     ?>
                         <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up">

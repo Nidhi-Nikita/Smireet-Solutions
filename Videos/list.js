@@ -1,52 +1,58 @@
 var http = require("http");
 // module for reading files
 const fs = require('fs'); 
+// const path = require('path'); 
 // array to store file names
 var myData = []; 
 var data = "im niks, yo!!";
 
+
 // this is the main function
-http.createServer(function(req, res){
+http.createServer(function Main1(req, res){
 	res.writeHead(200, {'content-type': 'text/html'});
   
   	// calling readFiles function which will give an array of file names and stored in var final
-	var final = readFiles();	 
+	 final = readFiles();	 
 	
 	// this is to display on html site
-	res.write(final);
+	// res.write(final);
 
 	// this is to display on cmd
-	console.log(final);
+	// console.log(final);
 
 	// can use res.write as many times we want before res.end. 
 	// Since js is asynchronous res.final is getting executed even before res.write is executed
 	// hence first we'll check if data is there in final var then only res.end will be executed
 	if (final) {
-		res.end("hiiiee: ",final);
+		res.end("hiiiee: ",data);
 	}
+return final;
+}
 
-}).listen(8080);
+).listen(8080);
 
 
 // Function to get current filenames in directory 
 
 function readFiles(){
 
-	fs.readdir(__dirname, (err, files) => { 
-	  if (err) 
-	    console.log(err); 
-	  else { 
-	    console.log("\nCurrent directory filenames:"); 
-	    files.forEach(file => { 
-	    	// this loop pushes filenames which have mp4 as an extension and won't push the same file
-	    	if (!myData.includes(file) && file.endsWith("mp4")) {
-	    		myData.push(file); 
-	    	}
-	    })
-	  } 
-	})
+	fs.readdir(__dirname,  
+  { withFileTypes: true }, 
+  (err, files) => { 
+  console.log("\nCurrent directory files:"); 
+  if (err) 
+    console.log(err); 
+  else { 
+    files.forEach(file => { 
+      console.log(file); 
+	  myData.push(file);
 
-	return myData;
+    }) 
+  } 
+})
+
+return myData;
+	
 }
 
 // var server = http.createServer(function (request, response) {

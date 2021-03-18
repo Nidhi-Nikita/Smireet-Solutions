@@ -525,7 +525,7 @@
                     <div class="col-lg-6 col-md-6 footer-info social-links">
                         <h2>SMIREET</h2>
                         <br>
-                        <h3>Phone: <a href="tel://+91 98924 47509">+91 98924 47509</a></h3>
+                        <h3>Phone: <a href="tel://+91 98924 47509">+919892447509</a></h3>
                         <h3>Email: <a href="mailto://smrmotionsensor@gmail.com">smrmotionsensor@gmail.com</a></h3>
                         <h3>Factory Address: </h3>
                         <h4> G-7702-Bhiwandi, Mankoli road, Mumbai Nahik Higway New Bhiwandin Upper Thane - 421302</h4>

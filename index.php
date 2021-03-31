@@ -239,9 +239,10 @@
                         <p>SAI BALAJI DEVELOPWER ATLANTA EDEN WORLD CHS,BHIWANDI</p>
                         <p>ARIHANT CHS BHIWANDI</p>
                         <p>RAYCON INFRASTRUCTURE,BHADUP</p>
+                        <p>Lodha Vivant ABC CHS, Lodha Splendora Owala.</p>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="col-lg-4 col-md-6 content-item faq-item" data-aos="fade-up" data-aos-delay="200">
                         <p>VIJAY GALAXY CHS,KASARWADAWALI</p>
                         <p>ROSA BELLA CHS,KASARWADAWALI</p>
                         <p>NEELKANTH GREENS CHS,MANPADA</p>
@@ -250,10 +251,11 @@
                         <p>Arctica CHS.CR-Palava</p>
                         <p>Persians CHS. CR-PalavaI</p>
                         <p>Lavenia CHS. Hiranandani Estate.</p>
-                        <p>HIRANANDANI MAYFLOWER</p>
+                        <p>HIRANANDANI MAYFLOWER</p><p>Lodha Platino A-B & Vivant G. Lodha Splendora Owala</p>
+                        <p>Lodha Vivant EGF CHS, Lodha Splendora Owala</p>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="col-lg-4 col-md-6 content-item faq-item" data-aos="fade-up" data-aos-delay="200">
                         <p>Uno CHS. LS – Palava</p>
                         <p>THANE MUNCIPLE CORP.HO</p>
                         <p>THANE MAJIWADA PRABHAG SAMITEE</p>
@@ -263,18 +265,9 @@
                         <p>LIGHT BRIDGE HIRANANDANI</p>
                         <p>MANGIRISH FOODS PVT. LTD. r</p>
                         <p>LIGHTBRIDGE </p>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="200">
                         <p>Elite CHS-LS-Palava</p>
                         <p>Raheja Ridgewood CHS Goregoan</p>
-                        <p>Lodha Platino A-B & Vivant G. Lodha Splendora Owala</p>
-                        <p>Lodha Vivant EGF CHS, Lodha Splendora Owala</p>
-                        <p>Lodha Vivant ABC CHS, Lodha Splendora Owala.</p>
-
                     </div>
-
-
 
                 </div>
 

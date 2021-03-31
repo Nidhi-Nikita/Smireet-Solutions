@@ -1227,6 +1227,16 @@ section {
   color: #1f3548;
 }
 
+.faq-item{
+  border-left: 1px solid #f3c1ab;
+}
+
+@media screen and (max-width: 768px){
+  .faq-item{
+    border-left: 0px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Contact Us
 --------------------------------------------------------------*/

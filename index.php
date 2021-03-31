@@ -39,14 +39,14 @@
         <div class="logo me-auto auto-margin">
             <!-- <h1><a href="index.html">SMIREET</a></h1> -->
             <!-- Uncomment below if you prefer to use an image logo -->
-            <a href="index.html"><img src="assets/img/logo.jpg" alt="" class="img-fluid"></a>
+            <a href="index.php"><img src="assets/img/logo.jpg" alt="" class="img-fluid"></a>
         </div>
 
         <div class="container d-flex text-right">
 
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+                    <li><a class="nav-link scrollto active" href="index.php">Home</a></li>
                     <li><a class="nav-link scrollto" href="#about">About</a></li>
                     <li><a class="nav-link scrollto" href="#services">Services</a></li>
                     <li class="dropdown"><a href="#portfolio"><span>What We Do</span> <i class="bi bi-chevron-down"></i></a>
@@ -56,6 +56,12 @@
                         </ul>
                     </li>
                     <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                    <li class="dropdown"><a href="#portfolio"><span>Download</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="Smireet Solutions CP-1.pdf" download="Smireet Solutions">Brochure</a></li>
+                            <!-- <li><a href="LED-pannels.html"></a></li> -->
+                        </ul>
+                    </li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->
@@ -218,33 +224,57 @@
 
                 <div class="section-title">
                     <h2>Our Happy Clients</h2>
-                    <p>WE WOULD WISH TO ADD YOUR NAME IN OUR PRIDE CUSTOMER LIST.</p>
+                    <h3>WE WOULD WISH TO ADD YOUR NAME IN OUR PRIDE CUSTOMER LIST.</h3>
                 </div>
 
                 <div class="row  d-flex align-items-stretch">
 
-                    <div class="col-lg-6 faq-item" data-aos="fade-up">
-                        <p>HIRANANDANI-MAYFLOWER,LIGHTBRIDGE</p>
+                    <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up">
+                        <p>DOSTI ViHAR-VRISHTI A-B-C-D-E-F CHS VARTAK NAGAR</p>
                         <p>PARK WOODS CHS,KASARWADWALI</p>
+                        <p>DOSTI IMPERIA ORNATA CHS,MANPADA</p>
                         <p>DOSTI IMPERIA ELESIA CHS,MANPADA</p>
-                        <p>IXORA CHS HIRANANDANI</p>
+                        <p>COSMOS JWELL CHS,KASARWADAWALI</p>
+                        <p>IXORA CHS HIRANANDANI </p>
+                        <p>SAI BALAJI DEVELOPWER ATLANTA EDEN WORLD CHS,BHIWANDI</p>
                         <p>ARIHANT CHS BHIWANDI</p>
-                        <p>VIJAY GALAXY CHS,KASARWADAWALI</p>
-                        <p>NEELKANTH GREENS CHS,MANPADA</p>
-                        <p>PUSHPANJALI HIGHTS CHS,OWALA</p>
-                        <p>Buttercup CHS Hiranandani Meadows</p>
+                        <p>RAYCON INFRASTRUCTURE,BHADUP</p>
                     </div>
 
-                    <div class="col-lg-6 faq-item" data-aos="fade-up" data-aos-delay="200">
-                        <p>DOSTI ViHAR-VRISHTI A-B-C-D-E-F CHS VARTAK NAGAR</p>
-                        <p>DOSTI IMPERIA ORNATA CHS,MANPADA</p>
-                        <p>COSMOS JWELL CHS,KASARWADAWALI</p>
-                        <p>SAI BALAJI DEVELOPWER ATLANTA EDEN WORLD CHS,BHIWANDI</p>
-                        <p>RAYCON INFRASTRUCTURE,BHADUP</p>
+                    <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="200">
+                        <p>VIJAY GALAXY CHS,KASARWADAWALI</p>
                         <p>ROSA BELLA CHS,KASARWADAWALI</p>
-                        <p>LIGHT BRIDGE HIRANANDANI</p>
-                        <p>Siddhachal CHS Phase 7,Vasnt Vihar</p>
+                        <p>NEELKANTH GREENS CHS,MANPADA</p>
+                        <p>LIGHT BRIDGE HIRANANDANI </p>
+                        <p>PUSHPANJALI HIGHTS CHS,OWALA</p>
+                        <p>Arctica CHS.CR-Palava</p>
+                        <p>Persians CHS. CR-PalavaI</p>
+                        <p>Lavenia CHS. Hiranandani Estate.</p>
+                        <p>HIRANANDANI MAYFLOWER</p>
                     </div>
+
+                    <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="200">
+                        <p>Uno CHS. LS – Palava</p>
+                        <p>THANE MUNCIPLE CORP.HO</p>
+                        <p>THANE MAJIWADA PRABHAG SAMITEE</p>
+                        <p>THANE TARAN TALAO </p>
+                        <p>TMC DADOJI KONDEV STADIUM</p>
+                        <p>RAYMONDS LTD.</p>
+                        <p>LIGHT BRIDGE HIRANANDANI</p>
+                        <p>MANGIRISH FOODS PVT. LTD. r</p>
+                        <p>LIGHTBRIDGE </p>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="200">
+                        <p>Elite CHS-LS-Palava</p>
+                        <p>Raheja Ridgewood CHS Goregoan</p>
+                        <p>Lodha Platino A-B & Vivant G. Lodha Splendora Owala</p>
+                        <p>Lodha Vivant EGF CHS, Lodha Splendora Owala</p>
+                        <p>Lodha Vivant ABC CHS, Lodha Splendora Owala.</p>
+
+                    </div>
+
+
 
                 </div>
 
@@ -261,30 +291,36 @@
 
                 <div class="row no-gutters">
 
-                    <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up">
-                        <span>01</span>
-                        <img src="assets/img/1.jpg" width="350" height="240">
-                    </div>
+                    <?php
 
-                    <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="100">
-                        <span>02</span>
-                        <img src="assets/img/2.jpg" width="350" height="240">
-                    </div>
+                    $newArray1 = array();
+                    if ($handle = opendir('./images')) {
 
-                    <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="200">
-                        <span>03</span>
-                        <img src="assets/img/3.jpg" width="350" height="240">
-                    </div>
+                        while (false !== ($entry = readdir($handle))) {
 
-                    <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="300">
-                        <span>04</span>
-                        <img src="assets/img/4.jpg" width="350" height="240">
-                    </div>
+                            if ($entry != "." && $entry != ".." && $entry != ".DS_Store") {
 
-                    <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="400">
-                        <span>05</span>
-                        <img src="assets/img/5.jpg" width="350" height="240">
-                    </div>
+                                $newArray1[] =  "images/" . $entry;
+                            }
+                        }
+
+                        closedir($handle);
+                    }
+
+                    for ($x = 0; $x < count($newArray1); $x++) {
+
+                    ?>
+
+
+                        <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up">
+
+                            <img src="<?php echo $newArray1[$x]; ?>" width="350" height="240">
+                        </div>
+
+                    <?php
+                    }
+
+                    ?>
                 </div>
 
             </div>
@@ -370,37 +406,6 @@
 
                     ?>
 
-
-
-
-
-                    <!-- <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="100">
-            <video width="350" height="240" controls>
-              <source src="Videos/2.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
-          </div>
-    
-          <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="200">
-          <video width="350" height="240" controls>
-            <source src="Videos/3.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-          </div>
-    
-          <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="300">
-          <video width="350" height="240" controls>
-            <source src="Videos/3.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-          </div>
-    
-          <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="400">
-          <video width="350" height="240" controls>
-            <source src="Videos/3.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-          </div> -->
                 </div>
 
             </div>

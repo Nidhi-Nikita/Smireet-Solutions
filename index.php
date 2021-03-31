@@ -9,11 +9,10 @@
     <meta content="" name="description">
     <meta content="" name="keywords">
 
-    <script type="text/javascript" src="Videos/list.js"></script>
-
     <!-- Favicons -->
     <link href="assets/img/favicon.png" rel="icon">
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- <link rel="shortcut icon" href="http://sstatic.net/stackoverflow/img/favicon.ico"> -->
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i,900" rel="stylesheet">

@@ -59,7 +59,7 @@
                     <li class="dropdown"><a href="#portfolio"><span>Download</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="Smireet Solutions CP-1.pdf" download="Smireet Solutions">Brochure</a></li>
-                            <!-- <li><a href="LED-pannels.html"></a></li> -->
+                            <li><a href="Saving Report.xlsx" download="ROI Calculator">ROI Calculator</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -251,7 +251,8 @@
                         <p>Arctica CHS.CR-Palava</p>
                         <p>Persians CHS. CR-PalavaI</p>
                         <p>Lavenia CHS. Hiranandani Estate.</p>
-                        <p>HIRANANDANI MAYFLOWER</p><p>Lodha Platino A-B & Vivant G. Lodha Splendora Owala</p>
+                        <p>HIRANANDANI MAYFLOWER</p>
+                        <p>Lodha Platino A-B & Vivant G. Lodha Splendora Owala</p>
                         <p>Lodha Vivant EGF CHS, Lodha Splendora Owala</p>
                     </div>
 

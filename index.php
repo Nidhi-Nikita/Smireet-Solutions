@@ -148,27 +148,35 @@
 
                     <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up">
                         <span>01</span>
-                        <h4>Housing Societies are our prime customers</h4>
+                        <h4>SMR motion sensor</h4>
+                        > Surface Panel light 15W auto deem able upto 3W <br>
+                        > Fall ceiling panel light 15W auto deem able upto 3W<br>
+                        > 4 feet motion sensor LED tube 18W auto deem able upto 3W<br>
+                        > 40W street light LED auto deem able upto 4W<br>
                     </div>
 
                     <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="100">
                         <span>02</span>
-                        <h4>Government Segments</h4>
+                        <h4>CCTV surveillance</h4>
+                        > NVR Ip camera<br>
+                        > DVR HD Camera<br>
+                        > Wireless camera for lift<br>
+                        > CCTV AMC
                     </div>
 
                     <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="200">
                         <span>03</span>
-                        <h4>Education Sector</h4>
+                        <h4>Firefighting sales and services </h4>
                     </div>
 
                     <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="300">
                         <span>04</span>
-                        <h4>School bus CCTV Surveillance</h4>
+                        <h4>Lift AMC all brands</h4>
                     </div>
 
                     <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="400">
                         <span>05</span>
-                        <h4>Automotive</h4>
+                        <h4>Access control sales and services</h4>
                     </div>
                 </div>
 
@@ -371,6 +379,7 @@
                     <?php
 
                     $newArray = array();
+                    $name = array();
                     if ($handle = opendir('./Videos')) {
 
                         while (false !== ($entry = readdir($handle))) {
@@ -378,6 +387,7 @@
                             if ($entry != "." && $entry != ".." && $entry != ".DS_Store") {
 
                                 $newArray[] =  "Videos/" . $entry;
+                                $name[] = $entry;
                             }
                         }
 
@@ -392,6 +402,8 @@
                                 <source src="<?php echo $newArray[$x]; ?>" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
+
+                            <h5><?php echo $name[$x]; ?></h5>
                         </div>
 
                     <?php

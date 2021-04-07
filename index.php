@@ -387,7 +387,8 @@
                             if ($entry != "." && $entry != ".." && $entry != ".DS_Store") {
 
                                 $newArray[] =  "Videos/" . $entry;
-                                $name[] = $entry;
+                                $check = str_replace('.mp4', '', $entry);
+                                $name[] = $check;
                             }
                         }
 
